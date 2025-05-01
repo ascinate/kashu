@@ -34,7 +34,7 @@ const MultiStepForm: React.FC = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
-    setErrors(prev => ({ ...prev, [name]: '' })); // Clear error on change
+    setErrors(prev => ({ ...prev, [name]: '' })); 
   };
 
   const validateStep = () => {
@@ -126,9 +126,8 @@ const MultiStepForm: React.FC = () => {
                  <div className='inside-line01 w-40'>
 
                 </div>
-                <h2 className='text-center geattings-st-sm mt-5'> Enter 6-digit code </h2>
-                <p className='text-center we-texts mt-3'> We&apos;ve sent the code to <br/>
-                Can&apos;t find it? Check your spam folder. </p>
+                <h2 className='text-center geattings-st-sm mt-5'> Enter 6digit code </h2>
+                
                 <div className='forms-tops01 focus:border-purple-600 flex space-x-3 justify-center mt-5  relative'>
                   <input
                     type="text"
@@ -206,7 +205,7 @@ const MultiStepForm: React.FC = () => {
         </>
       ) : (
         <div style={{ padding: '20px', backgroundColor: '#d1e7dd', textAlign: 'center' }}>
-          <h2>🎉 Success!</h2>
+          <h2> Success!</h2>
           <p>Your form has been submitted successfully.</p>
         </div>
       )}
