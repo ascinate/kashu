@@ -127,8 +127,8 @@ const MultiStepForm: React.FC = () => {
 
                 </div>
                 <h2 className='text-center geattings-st-sm mt-5'> Enter 6-digit code </h2>
-                <p className='text-center we-texts mt-3'> We've sent the code to j***@gm***.com. <br/>
-                Can't find it? Check your spam folder. </p>
+                <p className='text-center we-texts mt-3'> We&apos;ve sent the code to <br/>
+                Can&apos;t find it? Check your spam folder. </p>
                 <div className='forms-tops01 focus:border-purple-600 flex space-x-3 justify-center mt-5  relative'>
                   <input
                     type="text"
