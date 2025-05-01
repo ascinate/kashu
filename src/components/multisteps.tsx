@@ -183,7 +183,7 @@ const MultiStepForm: React.FC = () => {
 
               <br />
               
-              <button onClick={nextStep} className='resnd-btn'>Resend</button>
+              <button onClick={handleSubmit} className='resnd-btn'>Resend</button>
             </div>
           )}
 

@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from "react";
 import Loader from "./Loader";
-import SignupForm from "../components/SignupForm";
-import Topbar from "../components/Topbar";
 import MultiStepForm from "../components/multisteps";
 import { NavLink } from "react-router-dom";
 import { FaApple, FaGoogle } from "react-icons/fa";
