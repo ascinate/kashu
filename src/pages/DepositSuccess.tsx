@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import sucs from '../images/sucs.svg';
 import { IoCloseSharp , IoArrowForward } from "react-icons/io5";
-import { FaRegCircleQuestion } from "react-icons/fa6";
 import { AiOutlinePlus } from "react-icons/ai";
 
 const DepositSuccess: React.FC = () => {
