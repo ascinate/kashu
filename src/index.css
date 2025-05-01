@@ -270,6 +270,160 @@ button:focus-visible {
   border: none !important;
   font-weight: 700 !important;
 }
+
+
+.close-btn{
+  color: #1b3f38;
+  right: 20%;
+  font-size:24px;
+}
+.walltes-div01{
+  background: #F1FAF3;
+  width: 90%;
+  min-height: 380px;
+  border-radius: 40px;
+}
+.walltes-div01 h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.add-t{
+  color: #0B5147;
+  font-weight: 500;
+  font-size: 17px;
+}
+.add-cre{
+  background: #1b3f38 !important;
+  color: var(--white-color) !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 16px;
+  height: 61px;
+  line-height: 41px;
+}
+.add-cre svg{
+  margin-right: 5px;
+}
+.need-text{
+  font-weight: 700;
+  color: #1b3f38;
+}
+.need-text svg{
+  margin-right: 5px;
+}
+.sel-w{
+  color: #0B5147;
+  font-weight: 600;
+  width: 98%;
+  font-size: 17px;
+}
+.bt-ads{
+  background: none !important;
+  padding: 0;
+  border: none !important;
+}
+.crad-text h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: #0B5147;
+}
+.crad-text a{
+  color: #0B5147CC;
+}
+.cm-card01{
+  border-radius: 24px;
+}
+.cm-card01 h5{
+  color: #0B5147;
+  font-weight: 700;
+  font-size: 17px;
+  width: 80%;
+}
+.cm-card01 h5 span{
+  color: rgba(11, 81, 71, 0.4);
+  font-weight: 500;
+}
+.cm-card01 svg{
+  position: absolute;
+  right: 17px;
+  top: 26px;
+  width: 27px;
+  height: 27px;
+  color: rgba(11, 81, 71, 0.8);
+}
+.img-divb{
+  width: 20%;
+}
+.card-par{
+  min-height: inherit;
+}
+.chooset{
+  font-size: 35px;
+  font-weight: 700;
+  color: #0B5147;
+}
+.bac-btn{
+  left: 7%;
+  color: #1b3f38;
+}
+.fomr-inputs{
+  border: solid 1px #bbb;
+  height: 61px;
+  border-radius: 25px;
+  font-size: 35px;
+  font-weight: 700;
+  text-indent: 15px;
+}
+.chooser-content{
+ min-height: 100vh;
+}
+.sp-border{
+  border: 1px solid rgba(11, 81, 71, 0.4)
+}
+.add-cre svg{
+  margin-left: 5px;
+}
+.tabd-t td{
+  padding: 10px;
+}
+.tabd-t td:first-child{
+  text-align: left;
+  color: rgba(11, 81, 71, 0.4);
+  
+}
+.tabd-t tbody > tr{
+  border-bottom:solid 1px #f5f5f5;
+  padding-bottom: 20px;
+}
+.tabd-t td:last-child{
+  text-align:right;
+  color: rgba(11, 81, 71, 1);
+}
+.pric-tags{
+  font-weight: 700;
+  color: rgba(11, 81, 71, 1);
+}
+.amount-text{
+  color: rgba(11, 81, 71, 0.4);
+  font-size: 30px;
+}
+.new-submit{
+  background: rgba(225, 255, 160, 1) !important;
+  color: rgba(11, 81, 71, 1) !important;
+  font-weight: 700;
+}
+.incsrice{
+  color: rgba(11, 81, 71, 0.8);
+}
+@media(min-width:1024px){
+  .walltes-div01{
+    width: 50%;
+  }
+  .chooser-content{
+    width: 70%;
+  }
+}
 @media(max-width:910px){
   .multis-div .inside-line01{
     background: rgba(11, 81, 71, 0.2);
@@ -286,10 +440,16 @@ button:focus-visible {
   margin: auto;
   margin-top: 40px;
  }
- .geattings-st{
-  font-size: 28px;
- }
+
  .body-contentsd-div01 {
   padding-top: 0;
+ }
+ .close-btn {
+  color: #000 !important;
+  right: 4%;
+ }
+ .geattings-st {
+  font-size: 36px;
+  width: 70%;
  }
 }
