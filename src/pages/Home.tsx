@@ -23,7 +23,6 @@ const Home: React.FC = () => {
     return (
         <>
         <section className="w-full float-left">
-          <Topbar/>
           <div className="body-contentsd-div01 w-full float-left">
             <div className="or-signup">
               <MultiStepForm/>

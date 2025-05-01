@@ -1,17 +1,10 @@
-import React, {useState, useEffect} from "react";
-import Loader from "./Loader";
-import SignupForm from "../components/SignupForm";
-import Topbar from "../components/Topbar";
-import MultiStepForm from "../components/multisteps";
 import { NavLink } from "react-router-dom";
-import { FaApple, FaGoogle } from "react-icons/fa";
 import face from '../images/icon-face.svg';
 
 const SignIn: React.FC = () => {
     return (
         <>
         <section className="w-full float-left">
-          <Topbar/>
           <div className="body-contentsd-div01 w-full float-left">
             <div className='name-div05 multis-div relative'>
                <div className='inside-line01 w-100'>
