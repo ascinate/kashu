@@ -450,7 +450,8 @@ button:focus-visible {
 }
 .pric-tags{
   font-weight: 700;
-  color: rgba(11, 81, 71, 1);
+  color: #0B5147;
+  font-size: 36px;
 }
 .amount-text{
   color: rgba(11, 81, 71, 0.4);
@@ -481,6 +482,15 @@ button:focus-visible {
 }
 .footer-deposide label{
   color: rgba(11, 81, 71, 0.8) !important;
+}
+.new-last{
+  font-size: 36px;
+  font-weight: 700;
+  color: rgba(11, 81, 71, 1);
+  line-height: 46px;
+}
+.last-para{
+  width: 86%;
 }
 @media(min-width:1024px){
   .walltes-div01{

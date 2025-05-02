@@ -20,7 +20,7 @@ const DepositSubmitPayment: React.FC = () => {
             <NavLink to="/" className="close-btn absolute top-0"> <IoCloseSharp /> </NavLink>
              <div className='chooser-content px-4 mx-auto'>
                   <h2 className='text-center mt-11 chooset w-full mb-4 mx-auto'> Confirm the Details </h2>
-                  <p className='sel-w sel-w2 text-center mt-7 mx-auto'> Please take a moment to ensure the
+                  <p className='sel-w sel-w2 text-center mt-3 mx-auto'> Please take a moment to ensure the
                   amounts and credit card details are correct. </p>
 
                   <h1 className='text-center pric-tags mt-8'>$25,000.00 </h1>
