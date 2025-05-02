@@ -308,6 +308,7 @@ button:focus-visible {
 .need-text{
   font-weight: 700;
   color: #1b3f38;
+  bottom: 33px;
 }
 .need-text svg{
   margin-right: 5px;
@@ -416,6 +417,9 @@ button:focus-visible {
 .incsrice{
   color: rgba(11, 81, 71, 0.8);
 }
+.min-ho{
+  min-height: 100vh;
+}
 @media(min-width:1024px){
   .walltes-div01{
     width: 50%;
@@ -445,7 +449,7 @@ button:focus-visible {
   padding-top: 0;
  }
  .close-btn {
-  color: #000 !important;
+  color: rgba(11, 81, 71, 0.8) !important;
   right: 4%;
  }
  .geattings-st {

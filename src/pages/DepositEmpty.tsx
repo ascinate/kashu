@@ -10,7 +10,7 @@ const DepositEmpty: React.FC = () => {
         <>
         <section className="w-full float-left">
           <div className="body-contentsd-div01 w-full float-left">
-            <div className='name-div05 multis-div relative'>
+            <div className='name-div05 min-ho multis-div relative'>
             <NavLink to="/" className="close-btn absolute top-0"> <IoCloseSharp /> </NavLink>
               <h1 className='text-center mt-11 geattings-st w-96 mx-auto'> Convert Credit
               to Cash </h1>
@@ -23,7 +23,7 @@ const DepositEmpty: React.FC = () => {
                  <NavLink to="/depositselect" className='w-full add-cre flex items-center justify-center mt-4'> <FiPlus/> Add a Credit Card</NavLink>
               </div>
 
-              <NavLink to="/" className="text-center need-text items-center w-96 mx-auto  we-texts text-center flex justify-center mt-8"> <FaRegCircleQuestion/> Need help? Talk to support </NavLink>
+              <NavLink to="/" className="text-center fixed need-text items-center w-96 mx-auto  we-texts text-center flex justify-center mt-8"> <FaRegCircleQuestion/> Need help? Talk to support </NavLink>
 
 
               
