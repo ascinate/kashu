@@ -33,7 +33,7 @@ const DepositChooseAmount: React.FC = () => {
                   <form onSubmit={handleSubmit}>
                     <input
                       type="text"
-                      className='fomr-inputs w-full my-4'
+                      className='fomr-inputs w-full mt-0'
                       value={inputValue}
                       onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                         setInputValue(e.target.value)
@@ -41,7 +41,7 @@ const DepositChooseAmount: React.FC = () => {
                       placeholder="$25,000 .00"
                     />
 
-                     <div className="relative sp-border mt-4 mb-5 bg-white flex items-center px-4 py-4 cm-card01">
+                     <div className="relative sp-border map-input01 justify-center mx-auto mt-4 mb-5 bg-white flex items-center px-4 py-4 cm-card01">
                           <span className='img-divb'>  <img src={masc} alt="wal"/> </span>
                           <h5 className='text-start pl-2'>
                           Apple Card
@@ -49,10 +49,10 @@ const DepositChooseAmount: React.FC = () => {
                           </h5>
                      </div>
 
-                    <button type="submit" className='add-cre mt-20 block mx-auto w-full flex items-center justify-center mt-5'>Continue <IoArrowForward/> </button>
+                    <button type="submit" className='add-cre fixed sp0125 block mx-auto  flex items-center justify-center mt-5'>Continue <IoArrowForward/> </button>
                   </form>
               </div>
-              <NavLink to="/" className="text-center need-text items-center w-96 mx-auto  we-texts text-center flex justify-center mt-8"> <FaRegCircleQuestion/> Need help? Talk to support </NavLink>
+              
 
 
               
