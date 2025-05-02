@@ -14,7 +14,7 @@ const DepositSuccess: React.FC = () => {
             <NavLink to="/" className="close-btn absolute top-0"> <IoCloseSharp /> </NavLink>
              <div className='chooser-content px-4 mx-auto succsd-divb'>
                  
-                  <img src={sucs} alt="wal" className='block mt-20 mx-auto text-center'/>
+                  <img src={sucs} alt="wal" className='block mt-4 mx-auto text-center'/>
                   <h2 className='text-center mt-6 chooset new-last w-full mb-4 mx-auto'> Whoo! Your funds are ready to go. </h2>
                   <p className='sel-w text-center mt-3 last-para mx-auto'> Congratulations! Your funds are now available for transfer. </p>
 
