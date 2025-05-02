@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import masc from '../images/apple.svg';
 import visa from '../images/visa.svg';
+import arrows from '../images/st-arrow.svg';
 import { IoCloseSharp } from "react-icons/io5";
 import { FaRegCircleQuestion } from "react-icons/fa6";
 import { IoIosArrowForward } from "react-icons/io";
@@ -31,11 +32,13 @@ const DepositSelect: React.FC = () => {
                         {cards.map((card) => (
                             <NavLink key={card.id} to="/depositchooseamount" className="relative mb-5 bg-white flex items-center px-4 py-4 cm-card01">
                                <span className='img-divb'>  <img src={card.img} alt="wal"/> </span>
-                                <h5 className='text-start pl-2'>
+                                <h5 className='text-start'>
                                 {card.name}
                                 <span className='block'> {card.number} </span>
                                 </h5>
-                              <IoIosArrowForward/>
+                               <span>
+                               <img src={arrows} alt="wal"/>
+                               </span>
                             </NavLink>
                         ))}
                        

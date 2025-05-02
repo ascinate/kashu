@@ -355,6 +355,7 @@ button:focus-visible {
   font-weight: 700;
   font-size: 14px;
   width: 80%;
+  padding-left: 15px;
 }
 .cm-card01 h5 span{
   color: rgba(11, 81, 71, 0.4);
@@ -365,6 +366,7 @@ button:focus-visible {
   padding-top: 24px;
   padding-bottom: 20px;
 }
+
 .cm-card01 svg{
   position: absolute;
   right: 17px;
