@@ -311,6 +311,8 @@ button:focus-visible {
 }
 .add-cre svg{
   margin-right: 5px;
+  width: 16px;
+  height: 16px;
 }
 .need-text{
   font-weight: 700;
