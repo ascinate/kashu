@@ -287,11 +287,16 @@ button:focus-visible {
   font-size: 24px;
   font-weight: 700;
   color: var(--primary-color);
+  line-height: 34px;
+  margin-top: 34px;
 }
 .add-t{
   color: #0B5147;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 14px;
+  line-height: 24px;
+  width: 80%;
+  margin: auto;
 }
 .add-cre{
   background: #1b3f38 !important;
@@ -299,19 +304,25 @@ button:focus-visible {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 16px;
-  height: 61px;
+  height: 58px;
   line-height: 41px;
+  font-size: 16px;
+  font-weight: 700;
 }
 .add-cre svg{
   margin-right: 5px;
 }
 .need-text{
   font-weight: 700;
-  color: #1b3f38;
+  color: #0B5147;
   bottom: 33px;
+  font-size: 16px;
 }
 .need-text svg{
   margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  color: #0B5147;
 }
 .sel-w{
   color: #0B5147;

@@ -18,7 +18,7 @@ const DepositEmpty: React.FC = () => {
 
               <div className="walltes-div01 mx-auto mt-8 px-8 py-8">
                  <img src={wallet} alt="wal" className="mx-auto text-center"/>
-                 <h3 className='mt-8'> Add a credit card </h3>
+                 <h3> Add a credit card </h3>
                  <p className='mt-3 add-t'> Add a card to start converting your available credit limit into spendable cash. </p>
                  <NavLink to="/depositselect" className='w-full add-cre flex items-center justify-center mt-4'> <FiPlus/> Add a Credit Card</NavLink>
               </div>
