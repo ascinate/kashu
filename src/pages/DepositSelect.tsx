@@ -21,7 +21,7 @@ const DepositSelect: React.FC = () => {
               <h1 className='text-center mt-11 geattings-st w-96 mx-auto'> Convert Credit
               to Cash </h1>
               <p className='sel-w text-center mt-7 mx-auto'> Select a card to start converting your available credit limit into spendable cash. </p>
-              <div className="walltes-div01 card-par mx-auto mt-8 px-8 py-8">
+              <div className="walltes-div01 card-par mx-auto mt-8 px-8 srl-div">
                 <div className='flex crad-text mb-4 items-center justify-between'>
                     <h4> My Cards </h4>
                     <button className='btn bt-ads'>+ Add Card </button>
@@ -45,7 +45,7 @@ const DepositSelect: React.FC = () => {
                 
               </div>
 
-              <NavLink to="/" className="text-center need-text items-center w-96 mx-auto  we-texts text-center flex justify-center mt-8"> <FaRegCircleQuestion/> Need help? Talk to support </NavLink>
+              <NavLink to="/" className="text-center fixed need-text items-center w-96 mx-auto  we-texts text-center flex justify-center mt-8"> <FaRegCircleQuestion/> Need help? Talk to support </NavLink>
 
 
               

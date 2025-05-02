@@ -328,17 +328,19 @@ button:focus-visible {
 }
 .sel-w{
   color: #0B5147;
-  font-weight: 600;
-  width: 98%;
-  font-size: 17px;
+  font-weight: 500;
+  width: 92%;
+  font-size: 16px;
 }
 .bt-ads{
   background: none !important;
   padding: 0;
   border: none !important;
+  color: rgba(11, 81, 71, 0.8);
+  font-size: 14px;
 }
 .crad-text h4{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #0B5147;
 }
@@ -351,12 +353,17 @@ button:focus-visible {
 .cm-card01 h5{
   color: #0B5147;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 14px;
   width: 80%;
 }
 .cm-card01 h5 span{
   color: rgba(11, 81, 71, 0.4);
   font-weight: 500;
+
+}
+.srl-div{
+  padding-top: 24px;
+  padding-bottom: 20px;
 }
 .cm-card01 svg{
   position: absolute;
@@ -397,6 +404,9 @@ button:focus-visible {
 }
 .add-cre svg{
   margin-left: 5px;
+}
+.cm-div01{
+  margin-top: 15px;
 }
 .tabd-t td{
   padding: 10px;
