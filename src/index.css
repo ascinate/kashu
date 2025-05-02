@@ -330,7 +330,10 @@ button:focus-visible {
   color: #0B5147;
   font-weight: 500;
   width: 92%;
-  font-size: 16px;
+  font-size: 14px;
+}
+.sel-w2{
+  width: 87%;
 }
 .bt-ads{
   background: none !important;
@@ -428,11 +431,13 @@ button:focus-visible {
   margin-top: 15px;
 }
 .tabd-t td{
-  padding: 10px;
+  padding:8px 0;
+  font-size: 14px;
 }
 .tabd-t td:first-child{
   text-align: left;
   color: rgba(11, 81, 71, 0.4);
+  white-space: nowrap;
   
 }
 .tabd-t tbody > tr{
@@ -449,7 +454,8 @@ button:focus-visible {
 }
 .amount-text{
   color: rgba(11, 81, 71, 0.4);
-  font-size: 30px;
+  font-size: 18px;
+  margin-bottom: 22px;
 }
 .new-submit{
   background: rgba(225, 255, 160, 1) !important;
@@ -461,6 +467,20 @@ button:focus-visible {
 }
 .min-ho{
   min-height: 100vh;
+}
+.footer-deposide {
+  bottom: 26px;
+  width: 89%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.body-pr{
+  width:96%;
+  margin: auto;
+}
+.footer-deposide label{
+  color: rgba(11, 81, 71, 0.8) !important;
 }
 @media(min-width:1024px){
   .walltes-div01{
