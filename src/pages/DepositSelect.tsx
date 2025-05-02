@@ -5,7 +5,6 @@ import visa from '../images/visa.svg';
 import arrows from '../images/st-arrow.svg';
 import { IoCloseSharp } from "react-icons/io5";
 import { FaRegCircleQuestion } from "react-icons/fa6";
-import { IoIosArrowForward } from "react-icons/io";
 
 const DepositSelect: React.FC = () => {
     const cards = [
