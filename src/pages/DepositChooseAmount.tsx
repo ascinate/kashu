@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavLink , useNavigate } from "react-router-dom";
 import masc from '../images/apple.svg';
 import { IoCloseSharp , IoArrowForward} from "react-icons/io5";
-import { FaRegCircleQuestion } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
 
 const DepositChooseAmount: React.FC = () => {
