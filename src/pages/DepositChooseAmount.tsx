@@ -31,7 +31,9 @@ const DepositChooseAmount: React.FC = () => {
                   
                   <form onSubmit={handleSubmit}>
                     <input
-                      type="text"
+                      type="tel"
+                      inputMode="numeric"
+                      pattern="[0-9]*"
                       className='fomr-inputs w-full mt-0'
                       value={inputValue}
                       onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
